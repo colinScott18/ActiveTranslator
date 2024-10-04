@@ -28,7 +28,7 @@ speech_stop_event = threading.Event()
 target = "es"
 Personality = f"translate the input text into {target}"
 
-client = Groq(api_key="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")
+client = Groq(api_key="key")
 
 # Initialize chat history
 chat_history = [{"role": "system", "content": Personality},]
