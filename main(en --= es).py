@@ -24,7 +24,7 @@ audio_queue = queue.Queue()
 speech_thread = None
 speech_stop_event = threading.Event()
 
-client = Groq(api_key="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")
+client = Groq(api_key="key")
 
 def translate(text):
     # Translate
