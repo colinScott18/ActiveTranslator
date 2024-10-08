@@ -1,0 +1,1 @@
+pip install groq argostranslate SpeechRecognition queue io threading time gtts pygame
